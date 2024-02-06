@@ -1,0 +1,149 @@
+
+.mainPage-divClass{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/009/924/607/non_2x/cute-brown-aesthetic-abstract-minimal-background-perfect-for-wallpaper-backdrop-postcard-background-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.mainPageBody {
+    font-family: 'Gabriola', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+
+.main-page-title{
+
+    font-family: 'NSimSun', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    /*margin-left: 10%;*/
+    margin-top: 10%;
+
+}
+
+.showcase-description-main-page-portfolio{
+    font-family: 'NSimSun', cursive;
+    font-size: 20px;
+    font-weight: inherit;
+    color: black;
+    cursor: pointer;
+    width: 80%;
+    /*margin-left: 19%;*/
+    margin-top:50px ;
+
+}
+
+.w3-container {
+    padding: 0.01em 16px;
+    margin-left: 0px;
+}
+
+.slideShowImg {
+    margin-left: 60%;
+    width: 30%;
+    height: auto;
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.w3-content w3-display-container{
+    margin-left: 0px;
+}
+
+.showcase-description-main-page {
+
+    font-family: 'NSimSun', cursive;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    margin-top: 50px;
+    /*margin-right: 20%; */
+    width: 50%;
+}
+
+
+.welcome-container {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+    font-family: "Edwardian Script ITC",cursive;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+    transition: bottom 0.5s ease-in-out, opacity 0.5s ease-in-out;
+
+    &.show {
+        bottom: 0;
+        opacity: 1;
+        animation: fadeIn 0.5s ease-in-out;
+        font-family: "Gabriola",cursive;
+        z-index: 1;
+
+    }
+
+    &.hide {
+        bottom: -100%;
+        opacity: 1;
+        font-family: "Gabriola",cursive;
+
+    }
+}
+
+.image-container {
+    width: 100%;
+    border: black 1px solid;
+    margin-left: 20%;
+    margin-bottom: 50px;
+    height: 50%;
+}
+
+.content-container {
+    display: flex;
+    margin-right: 20%;
+}
+
+.mainPage-footer{
+    background-color: #3e2723;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: absolute;
+    bottom: 4.9%;
+    width: 100%;
+    height: 5vh;
+    /*padding: 10px;*/
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    font-family: 'NSimSun', cursive;
+}

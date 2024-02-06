@@ -1,0 +1,81 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #c0a080;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+}
+
+.logo {
+    font-family: 'Courier New', monospace;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-right: 7%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+nav ul li {
+    margin-right: 20px;
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    font-family: 'Courier New', monospace;
+    border: 1px solid #282c34;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    color: #d8bfb3;
+    font-family: 'Courier New', monospace;
+}
+
+nav ul li:hover {
+    transform: scale(1.1);
+}
+
+.DH-logo {
+    width: 50px;
+    height: 50px;
+    /*margin-right: 10px;*/
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: transform 0.3s ease;
+}

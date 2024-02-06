@@ -1,0 +1,31 @@
+/* Footer.css */
+
+.footer {
+    background-color: #3e2723; /* Coffee color background */
+    color: #fff; /* White text color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-link:hover {
+    color: #a1887f; /* Lighter coffee color on hover */
+}
+
+.footer-text {
+    margin-top: 20px;
+    font-size: 14px;
+}
