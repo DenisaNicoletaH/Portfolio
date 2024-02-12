@@ -68,7 +68,7 @@
     color: #fff;
     text-align: center;
     /*margin-top: 50%;*/
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: 'NSimSun', cursive;
 
     text-shadow: 2px 2px 4px #000000;
@@ -134,4 +134,25 @@
 }
 
 
+/*RESPONSIVE*/
+@media screen and (max-width: 768px) {
+    .contact-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /*margin-top: 10vh;*/
+        margin-bottom: 20%;
+        outline: none;
+        list-style-type: none;
+    }
 
+    .contact{
+        height: 100%;
+        width: 59vh;
+        background-size: cover;
+    }
+
+    .contact-title{
+        margin-top: 32%;
+    }
+}

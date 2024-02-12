@@ -25,13 +25,15 @@ nav {
     flex: 1;
     display: flex;
     justify-content: center;
-    margin-right: 7%;
+    margin-right: 3%;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 @keyframes fadeIn {
@@ -74,8 +76,38 @@ nav ul li:hover {
 .DH-logo {
     width: 50px;
     height: 50px;
-    /*margin-right: 10px;*/
     border-radius: 50%;
     border: 2px solid #fff;
     transition: transform 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        height: 100px;
+        width: 100%;
+    }
+
+    nav {
+        justify-content: center;
+        margin-right: 10%;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav a {
+        padding: 8px 15px;
+        font-size: 10px;
+    }
 }

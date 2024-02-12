@@ -1,4 +1,3 @@
-// AboutMe.js
 import React, { useState } from "react";
 import Navbar from "../Main Page/NavigationBar/Navbar";
 import Slider from "react-slick";
@@ -7,8 +6,12 @@ import "slick-carousel/slick/slick-theme.css";
 import "./AboutMe.css";
 import DenisaIllumi from "../../images/Denisa_Illumi.jpg";
 import DenisaLights from "../../images/Denisa_Light.jpg";
-import Popcorn from "../../images/Popcorn_Portfolio.jpg";
-import DenisaBarbie from "../../images/Denisa_Barbie_Image.jpg";
+// import DenisaBarbie from "../../images/Denisabarbie2.jpg";
+import DenisaMainPFP from "../../images/DenisaLinkedInPFP.jpg";
+// import DenisaParty from "../../images/DenisaPartyPicture.jpg";
+import DenisaCity from "../../images/DenisaCityCentre.jpg";
+import DenisaBack from "../../images/DenisaQuebec.jpg";
+import DenisaCat from "../../images/DenisaChicoCat2.jpg";
 import CVImage from "../../images/CV_en_Portfolio.png";
 import CVImage_fr from "../../images/CV_fr_Portfolio.png";
 import Footer from "../Main Page/Footer/Footer";
@@ -96,10 +99,10 @@ function AboutMe() {
                 </center>
                 <div className="slide-show-w3-container">
                     <Slider {...slideShowSettings}>
-                        <img className="denisa-illumi" src={DenisaIllumi} alt="DenisaIllumi"/>
-                        <img className="denisa-lights" src={DenisaLights} alt="DenisaLights"/>
-                        <img className="popcorn-aboutme" src={Popcorn} alt="Popcorn"/>
-                        <img className="denisa-barbie" src={DenisaBarbie} alt="DenisaBarbie"/>
+                        <img className="denisa-illumi" src={DenisaBack} alt="DenisaIllumi"/>
+                        <img className="denisa-lights" src={DenisaCat} alt="DenisaLights"/>
+                        <img className="popcorn-aboutme" src={DenisaCity} alt="Popcorn"/>
+                        <img className="denisa-barbie" src={DenisaMainPFP} alt="DenisaBarbie"/>
                     </Slider>
                 </div>
             </div>

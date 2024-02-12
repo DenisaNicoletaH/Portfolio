@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./MainPage.css";
 import Navbar from "./NavigationBar/Navbar";
-// import DenisaIllumi from "../../images/Denisa_Illumi.jpg";
-// import DenisaLights from "../../images/Denisa_Light.jpg";
-// import Popcorn from "../../images/Popcorn_Portfolio.jpg";
-// import DenisaLogo from "../../images/denisaLogoYellow.png";
 import Footer from "./Footer/Footer";
 // import Denisa_normalHi_bitmoji from "../../images/Denisa_normalHi_bitmoji-removebg-preview.png"
 
@@ -42,11 +38,17 @@ function MainPage() {
             </div>
             <div className="mainPage-content-container">
                 <center>
-                <p className="showcase-description-main-page-portfolio">
-
+                    <p>
+                    <h4 className={"welcome-paragraph"}>
                     Welcome!
-
+                        </h4>
+                    <h4 className={"welcome-sentence"}>
                     My name is Denisa Hategan, and I invite you to explore my professional portfolio.
+                    </h4>
+                    </p>
+                    <p className="showcase-description-main-page-portfolio">
+
+
                     Here, you will find comprehensive insights into my background,
                     achievements, and skill set. To learn more about me and my expertise,
                     please navigate to the "About Me" section.

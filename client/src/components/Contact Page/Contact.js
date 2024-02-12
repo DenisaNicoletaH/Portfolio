@@ -3,12 +3,7 @@ import Navbar from "../Main Page/NavigationBar/Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import "./Contact.css";
-import Email from "../../images/emailDenisa.png";
 import Footer from "../Main Page/Footer/Footer";
-
-
-
-
 
 
 function Contact() {
@@ -17,17 +12,17 @@ function Contact() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        console.log('Sending email:', message);
         try {
-            const response = await fetch('/api/message', {
+            const response = await fetch(`${process.env.REACT_APP_BE_URL}email/message`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ message }), // Include message data in the request body
+                body: JSON.stringify({ message }),
             });
             if (response.ok) {
                 console.log('Email sent successfully');
-                // Optionally, you can reset the message field after successful submission
                 setMessage('');
             } else {
                 console.error('Failed to send email');
@@ -47,7 +42,7 @@ function Contact() {
                     <h1 className={"contact-title"}>Contact Me</h1>
                 </div>
                 <div className={"email-container"}>
-                    <form className={"contact-form"}>
+                    <form className={"contact-form"} onSubmit={handleSubmit}>
                         <label htmlFor="messages">Send me a message!</label>
                         <center>
                             <textarea
@@ -60,7 +55,7 @@ function Contact() {
                             />
                         </center>
                         <center>
-                            <input type="submit" value="Send" className="send-email-btn" onSubmit={handleSubmit}/>
+                            <input type="submit" value="Send" className="send-email-btn" />
                         </center>
                     </form>
 
