@@ -289,17 +289,21 @@
     }
 
     .slide-show-w3-container {
-        width: 80%; /* Adjust width */
-        height: auto; /* Auto height */
-        margin-top: 20px; /* Add margin */
+        width: 80%;
+        height: auto;
+        margin-top: 20px;
         margin-left: 30%;
     }
 
     .showcase-description-about-me {
-        width: 80%; /* Adjust width */
-        margin-top: 20px; /* Add margin */
+        width: 80%;
+        margin-top: 20px;
         margin-left: 25%;
 
+    }
+
+    .main-page-title {
+        font-family: NSimSun,cursive;
     }
 
 
