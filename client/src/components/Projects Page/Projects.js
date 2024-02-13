@@ -1,7 +1,8 @@
 import React from "react";
 import "./Projects.css";
 import Navbar from "../Main Page/NavigationBar/Navbar";
-import Corso from "../../images/CorsoWebsite-Portfolio.png";
+// import Corso from "../../images/CorsoWebsite-Portfolio.png";
+import Corso from "../../images/CORSO-MAINPAGE.png";
 import PetClinic from "../../images/PetClinic-Portfolio.png";
 import Footer from "../Main Page/Footer/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

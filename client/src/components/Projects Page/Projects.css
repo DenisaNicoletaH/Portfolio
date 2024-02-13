@@ -93,8 +93,8 @@
         padding: 10px;
     }
     .project-title{
-        margin-top: 130px; /* Reset margin-top */
-        margin-bottom: 20px; /* Add some margin to separate from other elements */
-        text-align: center; /* Center align the title */
+        margin-top: 130px;
+        margin-bottom: 20px;
+        text-align: center;
     }
 }
