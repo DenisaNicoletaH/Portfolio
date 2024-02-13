@@ -161,26 +161,34 @@
 
     .welcome-container{
         font-size: 20px;
+        font-family: 'NSimSun', cursive;
+
     }
 
     .main-page-title {
         font-size: 20px;
         margin-top: 55%;
+        font-family: 'NSimSun', cursive;
+
     }
 
     .showcase-description-main-page-portfolio {
         font-size: 13px;
         margin-top: 10px;
-
+        font-family: 'NSimSun', cursive;
 
     }
 
     .welcome-paragraph{
         font-size: 15px;
+        font-family: 'NSimSun', cursive;
+
     }
 
     .welcome-sentence{
         font-size: 15px;
+        font-family: 'NSimSun', cursive;
+
 
     }
     .mainPage-footer{
