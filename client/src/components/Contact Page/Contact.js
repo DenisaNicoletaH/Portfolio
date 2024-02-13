@@ -37,7 +37,11 @@ function Contact() {
 
 
     return (
-        <div className="contact">
+        <div className="contact"
+        style={{
+            width: "100%",
+        }}
+        >
             <Navbar />
             <center>
                 <div className="ContagePagetitle">

@@ -1,4 +1,3 @@
-/* Navbar.css */
 
 .navbar {
     background-color: #c0a080;
@@ -109,5 +108,8 @@ nav ul li:hover {
     nav a {
         padding: 8px 15px;
         font-size: 10px;
+    }
+    .DH-logo{
+      margin-right: 50px;
     }
 }
