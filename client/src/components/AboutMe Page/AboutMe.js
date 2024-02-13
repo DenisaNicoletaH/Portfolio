@@ -79,19 +79,18 @@ function AboutMe() {
                     <p className="showcase-description-about-me">
                         My name is Denisa Nicoleta Hategan,
                         and I am currently pursuing my studies at Champlain College St-Lambert with a focus on Computer Science and Technology.
-                        Anticipated to graduate in May 2024, I am eager to embark on the next phase of my academic journey at ETS,
+                        Anticipated to graduate in June 2024, I am eager to embark on the next phase of my academic journey at ÉTS (École de Technologie Supérieure),
                         in the Software Engineering program. Driven by enthusiasm for continuing to learn and grow,
                         I am passionate about gaining new knowledge, particularly in new technologies,
                         programming languages, and frameworks. I'm dedicated to both personal and professional growth, constantly
-                        working to improve my skills and knowledge. Recognized for my industrious work ethic and steadfast determination,
-                        I approach challenges with a proactive mindset.
-                        I thrive in environments that foster innovation and encourage collaborative problem-solving,
-                        constantly seeking opportunities to broaden my horizons and contribute meaningfully to projects and initiatives.
+                        working to improve my skills and knowledge. Recognized for my industrious work ethic and my determination,
+                        I approach challenges with a proactive mindset as well as thrive in environments that foster innovation and encourage collaborative problem-solving.
+                        Everyday, I am constantly seeking opportunities to broaden my horizons and contribute meaningfully to projects and initiatives.
                     </p>
 
                     <p className={"hobbies-description-about-me"}>
                         <h2 className="hobbies-title">Hobbies:</h2>
-                        going outside, watching a huge variety of movies and TV shows , playing video games.
+                        Going outside, Watching a huge variety of movies and TV shows, Playing video games.
                         <h2 className="languages-title">Languages:</h2>
                         English, French, and Romanian.
                     </p>
@@ -101,7 +100,7 @@ function AboutMe() {
                     <Slider {...slideShowSettings}>
                         <img className="denisa-illumi" src={DenisaBack} alt="DenisaIllumi"/>
                         <img className="denisa-lights" src={DenisaCat} alt="DenisaLights"/>
-                        <img className="popcorn-aboutme" src={DenisaCity} alt="Popcorn"/>
+                        {/*<img className="popcorn-aboutme" src={DenisaCity} alt="Popcorn"/>*/}
                         <img className="denisa-barbie" src={DenisaMainPFP} alt="DenisaBarbie"/>
                     </Slider>
                 </div>
@@ -119,7 +118,6 @@ function AboutMe() {
                                 <li>CSS</li>
                                 <li>JavaScript</li>
                                 <li>React</li>
-                                <li>Redux</li>
                                 <li>Bootstrap</li>
                             </ul>
                         </center>
@@ -128,11 +126,16 @@ function AboutMe() {
                         <center>
                             <h2 className="backend-skills-title">Back-end</h2>
                             <ul className="backend-skill-ul">
-                                <li>Node.js</li>
+                                <li>Java</li>
+                                <li>C#(.NET)</li>
+                                <li>Python</li>
                                 <li>Express</li>
                                 <li>MySQL</li>
                                 <li>MongoDB</li>
-                                <li>Python</li>
+                                <li>Spring Boot</li>
+                                <li>Node.js</li>
+
+
                             </ul>
                         </center>
                     </div>
@@ -141,6 +144,8 @@ function AboutMe() {
                             <h2 className="other-skills-title">Other</h2>
                             <ul className="other-skill-ul">
                                 <li>Git</li>
+                                <li>Github</li>
+                                <li>GitBash</li>
                                 <li>RESTful APIs</li>
                             </ul>
                         </center>

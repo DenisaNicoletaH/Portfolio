@@ -46,10 +46,11 @@ function Projects() {
             <div className="project-list">
                 <ProjectCard
                     title="Corso Electric Inc."
-                    description="A website for an electrician company based in Montreal that has the goal to have a website where they can show their work and get more clients.
-    It was done by 4 Champlain College St-Lamber students.
-    This project includes Orders, FAQs, Reviews, Gallery Images, Services.
-    The website is done using React for Frontend, Java Springboot for Backend, and MySQL for Database."
+                    description="A website for an electrician company based in Montreal. The goal is
+                     to have a website where they can showcase their work and attract clients.
+                    This project was completed by 4 students from Champlain College St-Lambert.
+                    The project includes Orders, FAQs, Reviews, Gallery Images, Services and Reports.
+                    The website is done using ReactJS for Frontend, Java Springboot for Backend, and MySQL for the Database."
                     imageUrl={Corso}
                     link="https://corsoelectriqueinc.tech/"
                     linkGithub="https://github.com/DylanBrass/Corso-Website"
@@ -57,8 +58,8 @@ function Projects() {
                 />
                 <ProjectCard
                     title="Pet Clinic"
-                    description="A website is a professional school project that allows students at Champlain College St-Lambert
-                    to familiarize themselves with everyday work as a Scrum Master, Product Owner, and Developer.
+                    description=" This is a professional school project that allowed students at Champlain College St-Lambert to collaborate and
+                    to familiarize themselves with everyday work as a Scrum Master, Product Owner, as well as Developer.
                     Each team had a microservice to improve then merge with the other teams.Me and my team were in charge of VETS and was done using
                     AngularJS for Frontend, Java Springboot for Backend, as well as MongoDB for Database."
                     imageUrl={PetClinic}

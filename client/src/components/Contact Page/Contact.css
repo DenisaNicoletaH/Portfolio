@@ -1,5 +1,6 @@
 .contact {
-    background-image: url("https://static.vecteezy.com/system/resources/previews/009/924/607/non_2x/cute-brown-aesthetic-abstract-minimal-background-perfect-for-wallpaper-backdrop-postcard-background-vector.jpg");
+    /*background-image: url("https://static.vecteezy.com/system/resources/previews/009/924/607/non_2x/cute-brown-aesthetic-abstract-minimal-background-perfect-for-wallpaper-backdrop-postcard-background-vector.jpg");*/
+    background-image: url("https://img.freepik.com/free-vector/soft-brown-watercolor-texture-design-background-vector_1055-10979.jpg?w=1480&t=st=1707797129~exp=1707797729~hmac=58751d6e708a942fa4abfd8fb00378d70a7047e1987e1908e0ceac090c8b9822");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -7,6 +8,7 @@
     height: 95vh;
     position: relative;
 }
+
 
 .contact-links {
     display: flex;
@@ -65,13 +67,13 @@
 
 
 .contact-title {
-    color: #fff;
+    color: black;
     text-align: center;
     /*margin-top: 50%;*/
     font-size: 2rem;
     font-family: 'NSimSun', cursive;
 
-    text-shadow: 2px 2px 4px #000000;
+    /*text-shadow: 2px 2px 4px #000000;*/
 
 }
 
@@ -88,7 +90,7 @@
     padding: 30px;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);*/
 }
 
 .contact-form label {
@@ -110,7 +112,7 @@
 }
 
 .contact-form input[type="submit"] {
-    background-color: #4caf50;
+    background-color: green;
     color: #fff;
     padding: 10px 15px;
     border: none;
@@ -120,7 +122,7 @@
 }
 
 .contact-form input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #3e2723;
 }
 
 .ContagePagetitle{
@@ -130,7 +132,7 @@
     color: #fff;
     text-align: center;
     margin-top: 80px;
-    text-shadow: 2px 2px 4px #000000;
+    /*text-shadow: 2px 2px 4px #000000;*/
 }
 
 
@@ -153,6 +155,6 @@
     }
 
     .contact-title{
-        margin-top: 32%;
+        margin-top: 24.1%;
     }
 }

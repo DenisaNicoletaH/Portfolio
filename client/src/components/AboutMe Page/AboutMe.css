@@ -1,10 +1,12 @@
 .aboutMe-divClass{
-    background-image: url("https://static.vecteezy.com/system/resources/previews/009/924/607/non_2x/cute-brown-aesthetic-abstract-minimal-background-perfect-for-wallpaper-backdrop-postcard-background-vector.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-width: 100%;
-height: 100%;
+    /*background-image: url("https://static.vecteezy.com/system/resources/previews/009/924/607/non_2x/cute-brown-aesthetic-abstract-minimal-background-perfect-for-wallpaper-backdrop-postcard-background-vector.jpg");*/
+    background-image: url("https://img.freepik.com/free-vector/soft-brown-watercolor-texture-design-background-vector_1055-10979.jpg?w=1480&t=st=1707797129~exp=1707797729~hmac=58751d6e708a942fa4abfd8fb00378d70a7047e1987e1908e0ceac090c8b9822");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
 }
 
 .about-me-title {

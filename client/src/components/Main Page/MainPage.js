@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./MainPage.css";
 import Navbar from "./NavigationBar/Navbar";
 import Footer from "./Footer/Footer";
-// import Denisa_normalHi_bitmoji from "../../images/Denisa_normalHi_bitmoji-removebg-preview.png"
+import {Link} from "react-router-dom";
 
 function MainPage() {
     const [showWelcome, setShowWelcome] = useState(true);
@@ -43,24 +43,21 @@ function MainPage() {
                     Welcome!
                         </h4>
                     <h4 className={"welcome-sentence"}>
-                    My name is Denisa Hategan, and I invite you to explore my professional portfolio.
+                    {/*My name is Denisa Hategan, and */}I invite you to explore my professional portfolio.
                     </h4>
                     </p>
                     <p className="showcase-description-main-page-portfolio">
 
 
                     Here, you will find comprehensive insights into my background,
-                    achievements, and skill set. To learn more about me and my expertise,
-                    please navigate to the "About Me" section.
+                    achievements, and skill set. To learn more about me and my abilities,
+                    please navigate to the <Link to="/aboutMe" style={{textDecoration:"none"}}>About Me</Link> section.
                     For a detailed overview of my current and past projects,
-                    feel free to explore the "Projects" tab. Each project showcases my dedication,
-                    creativity, and problem-solving abilities. Should you wish to get in touch for collaboration opportunities
-                    or inquiries, the "Contact" section provides all necessary information.
+                        feel free to explore the <Link to="/projects" style={{textDecoration:"none"}}>Projects</Link> section.
+                        Each project showcases my dedication,creativity,and problem-solving abilities. If you wish to get in touch for collaboration opportunities
+                        or inquiries, the <Link to="/contact" style={{textDecoration:"none"}}>Contact</Link> section provides all necessary information.
 
                     Thank you for visiting. I hope you find my portfolio informative and engaging.
-
-                    Warm regards,
-                    Denisa Hategan
                 </p>
                 </center>
 

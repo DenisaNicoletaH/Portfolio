@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import "./Contact.css";
 import Footer from "../Main Page/Footer/Footer";
+import swal from 'sweetalert';
 
 
 function Contact() {
@@ -22,6 +23,7 @@ function Contact() {
                 body: JSON.stringify({ message }),
             });
             if (response.ok) {
+                swal("Email sent successfully!", "I will get back to you as soon as possible!", "success");
                 console.log('Email sent successfully');
                 setMessage('');
             } else {
