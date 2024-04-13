@@ -7,9 +7,14 @@ import PetClinic from "../../images/PetClinic-Portfolio.png";
 import Footer from "../Main Page/Footer/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub} from "@fortawesome/free-brands-svg-icons";
+import {useTranslation} from "react-i18next";
 
 
 function ProjectCard({ title, description, imageUrl, linkGithub, link, isCorso }) {
+
+    const { t } = useTranslation();
+
+
     return (
         <div className="project-card">
             <div className="project-image-container">
@@ -22,7 +27,7 @@ function ProjectCard({ title, description, imageUrl, linkGithub, link, isCorso }
                 <ul className={"project-links"}>
                     {isCorso && (
                         <a href={link} target="_blank" rel="noopener noreferrer" className="corso-project-link">
-                            View Project
+                            {t("projects.viewProjectBtn")}
                         </a>
                     )}
                     <center>
@@ -40,29 +45,25 @@ function ProjectCard({ title, description, imageUrl, linkGithub, link, isCorso }
 
 
 function Projects() {
+
+    const { t } = useTranslation();
+
     return (
         <div className="projects">
             <Navbar/>
             <center> <h1 className={"project-title"}>Projects</h1></center>
             <div className="project-list">
                 <ProjectCard
-                    title="Corso Electric Inc."
-                    description="A website for an electrician company based in Montreal. The goal is
-                     to have a website where they can showcase their work and attract clients.
-                    This project was completed by 4 students from Champlain College St-Lambert.
-                    The project includes Orders, FAQs, Reviews, Gallery Images, Services and Reports.
-                    The website is done using ReactJS for Frontend, Java Springboot for Backend, and MySQL for the Database."
+                    title={t("projects.corsoTitle")}
+                    description={t("projects.corsoDescription")}
                     imageUrl={Corso}
                     link="https://corsoelectriqueinc.tech/"
                     linkGithub="https://github.com/DylanBrass/Corso-Website"
                     isCorso={true}
                 />
                 <ProjectCard
-                    title="Pet Clinic"
-                    description=" This is a professional school project that allowed students at Champlain College St-Lambert to collaborate and
-                    to familiarize themselves with everyday work as a Scrum Master, Product Owner, as well as Developer.
-                    Each team had a microservice to improve then merge with the other teams.Me and my team were in charge of VETS and was done using
-                    AngularJS for Frontend, Java Springboot for Backend, as well as MongoDB for Database."
+                    title={t("projects.petClinicTitle")}
+                    description={t("projects.petClinicDescription")}
                     imageUrl={PetClinic}
                     link="https://github.com/cgerard321/champlain_petclinic"
                     linkGithub="https://github.com/cgerard321/champlain_petclinic"

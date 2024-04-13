@@ -17,11 +17,13 @@ import CVImage_fr from "../../images/CV_fr_Portfolio.png";
 import Footer from "../Main Page/Footer/Footer";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
+import {useTranslation} from "react-i18next";
 
 
 function AboutMe() {
     const [currentCVIndex, setCurrentCVIndex] = useState(0);
     const [buttonLabel, setButtonLabel] = useState("Français");
+    const { t } = useTranslation();
 
     const slideShowSettings = {
         dots: true,
@@ -71,28 +73,33 @@ function AboutMe() {
             <Navbar/>
             <div className="w3-container">
                 <center>
-                    <h1 className="about-me-title">About Me</h1>
+                    <h1 className="about-me-title">
+                        {t("navbar.about")}
+                    </h1>
                 </center>
             </div>
             <div className="content-container">
                 <center>
                     <p className="showcase-description-about-me">
-                        My name is Denisa Nicoleta Hategan,
-                        and I am currently pursuing my studies at Champlain College St-Lambert with a focus on Computer Science and Technology.
-                        Anticipated to graduate in June 2024, I am eager to embark on the next phase of my academic journey at ÉTS (École de Technologie Supérieure),
-                        in the Software Engineering program. Driven by enthusiasm for continuing to learn and grow,
-                        I am passionate about gaining new knowledge, particularly in new technologies,
-                        programming languages, and frameworks. I'm dedicated to both personal and professional growth, constantly
-                        working to improve my skills and knowledge. Recognized for my industrious work ethic and my determination,
-                        I approach challenges with a proactive mindset as well as thrive in environments that foster innovation and encourage collaborative problem-solving.
-                        Everyday, I am constantly seeking opportunities to broaden my horizons and contribute meaningfully to projects and initiatives.
+                        {/*My name is Denisa Nicoleta Hategan,*/}
+                        {/*and I am currently pursuing my studies at Champlain College St-Lambert with a focus on Computer Science and Technology.*/}
+                        {/*Anticipated to graduate in June 2024, I am eager to embark on the next phase of my academic journey at ÉTS (École de Technologie Supérieure),*/}
+                        {/*in the Software Engineering program. Driven by enthusiasm for continuing to learn and grow,*/}
+                        {/*I am passionate about gaining new knowledge, particularly in new technologies,*/}
+                        {/*programming languages, and frameworks. I'm dedicated to both personal and professional growth, constantly*/}
+                        {/*working to improve my skills and knowledge. Recognized for my industrious work ethic and my determination,*/}
+                        {/*I approach challenges with a proactive mindset as well as thrive in environments that foster innovation and encourage collaborative problem-solving.*/}
+                        {/*Everyday, I am constantly seeking opportunities to broaden my horizons and contribute meaningfully to projects and initiatives.*/}
+
+                        {t("aboutMe.aboutMeText")}
                     </p>
 
                     <p className={"hobbies-description-about-me"}>
-                        <h2 className="hobbies-title">Hobbies:</h2>
-                        Going outside, Watching a huge variety of movies and TV shows, Playing video games.
-                        <h2 className="languages-title">Languages:</h2>
-                        English, French, and Romanian.
+                        <h2 className="hobbies-title">
+                            {t("aboutMe.hobbies")}:</h2>
+                        {t("aboutMe.hobbiesText")}
+                        <h2 className="languages-title"> {t("aboutMe.languagesTitle")}:</h2>
+                        {t("aboutMe.languagesText")}
                     </p>
 
                 </center>
@@ -107,7 +114,7 @@ function AboutMe() {
             </div>
             <div className="full-skills-class">
                 <center>
-                    <h1 className="skills-title">Skills</h1>
+                    <h1 className="skills-title">{t("aboutMe.skills")}</h1>
                 </center>
                 <div className="skills-container">
                     <div className="skills-content-left">
@@ -141,7 +148,7 @@ function AboutMe() {
                     </div>
                     <div className="skills-content-other">
                         <center>
-                            <h2 className="other-skills-title">Other</h2>
+                            <h2 className="other-skills-title">{t("aboutMe.otherTitle")}</h2>
                             <ul className="other-skill-ul">
                                 <li>Git</li>
                                 <li>Github</li>

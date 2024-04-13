@@ -5,11 +5,16 @@ import { faGithub, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-
 import "./Contact.css";
 import Footer from "../Main Page/Footer/Footer";
 import swal from 'sweetalert';
+import { useTranslation } from "react-i18next";
+import {t} from "i18next";
+
+
+
 
 
 function Contact() {
-
-    const [message, setMessage] = useState('');
+    // const { t } = useTranslation();
+    const [message, setMessage] = useState(" ");
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -45,11 +50,14 @@ function Contact() {
             <Navbar />
             <center>
                 <div className="ContagePagetitle">
-                    <h1 className={"contact-title"}>Contact Me</h1>
+                    <h1 className={"contact-title"}>{t("contact.contactMe")}</h1>
                 </div>
                 <div className={"email-container"}>
                     <form className={"contact-form"} onSubmit={handleSubmit}>
-                        <label htmlFor="messages">Send me a message!</label>
+                        <label htmlFor="messages">
+                            {/*Send me a message!*/}
+                            {/*{t('sendAMessage')}*/}
+                        </label>
                         <center>
                             <textarea
                                 id="messages"

@@ -1,0 +1,46 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Me",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "mainPage": {
+    "welcome": "Welcome to my Portfolio!",
+    "myPortfolio": "My Portfolio",
+    "portfolioInvitation": "I invite you to explore my professional portfolio.",
+    "portfolioTextBefore": "Here, you will find comprehensive insights into my background,\n                    achievements, and skill set. To learn more about me and my abilities,\n                    please navigate to the \n ",
+    "portfolioAfterAboutMeBtn": "\nsection.\n                    For a detailed overview of my current and past projects,\n                        feel free to explore the\n",
+    "portfolioAfterProjectsBtn": "\nsection.\n                        Each project showcases my dedication,creativity,and problem-solving abilities. If you wish to get in touch for collaboration opportunities\n                        or inquiries, the \n",
+    "portfolioAfterContactBtn": "\nsection provides all necessary information.",
+    "portfolioAfterText": "                    Thank you for visiting. I hope you find my portfolio informative and engaging.\n"
+  },
+
+  "aboutMe": {
+    "aboutMeText": "My name is Denisa Nicoleta Hategan, and I am currently pursuing my studies at Champlain College St-Lambert with a focus on Computer Science and Technology. Anticipated to graduate in June 2024, I am eager to embark on the next phase of my academic journey at ÉTS (École de Technologie Supérieure), in the Software Engineering program. Driven by enthusiasm for continuing to learn and grow, I am passionate about gaining new knowledge, particularly in new technologies, programming languages, and frameworks. I'm dedicated to both personal and professional growth, constantly working to improve my skills and knowledge. Recognized for my industrious work ethic and my determination, I approach challenges with a proactive mindset as well as thrive in environments that foster innovation and encourage collaborative problem-solving. Everyday, I am constantly seeking opportunities to broaden my horizons and contribute meaningfully to projects and initiatives.",
+    "hobbies": "Hobbies",
+    "hobbiesText": "Going outside, Watching a huge variety of movies and TV shows, Playing video games.",
+    "languagesText": "English, French, and Romanian.",
+    "languagesTitle": "Languages",
+    "skills": "Skills",
+    "CVDownloadBtn": "Download CV",
+    "otherTitle": "Other"
+  },
+  "projects": {
+    "projects": "Projects",
+      "corsoTitle": "Corso Electric Inc.",
+      "corsoDescription": "A website for an electrician company based in Montreal. The goal is to have a website where they can showcase their work and attract clients. This project was completed by 4 students from Champlain College St-Lambert. The project includes Orders, FAQs, Reviews, Gallery Images, Services and Reports. The website is done using ReactJS for Frontend, Java Springboot for Backend, and MySQL for the Database.",
+        "petClinicTitle": "Pet Clinic",
+        "petClinicDescription": "This is a professional school project that allowed students at Champlain College St-Lambert to collaborate and to familiarize themselves with everyday work as a Scrum Master, Product Owner, as well as Developer. Each team had a microservice to improve then merge with the other teams.Me and my team were in charge of VETS and was done using AngularJS for Frontend, Java Springboot for Backend, as well as MongoDB for Database.",
+    "viewProjectBtn": "View Project"
+
+    },
+
+  "contact": {
+    "sendAMessage": "Send me a message!",
+    "contactMe": "Contact me"
+  },
+     "footer": {
+       "footerRights": "© 2024 Denisa Hategan. All rights reserved."
+    }
+}

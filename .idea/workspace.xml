@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a729da48-a11a-4eb5-94ff-c1ccccf70429" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/portfolio/client/src/components/Projects Page/Projects.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/client/src/components/Projects Page/Projects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/client/src/images/CorsoWebsite-Portfolio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/client/src/images/DenisaLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/client/src/images/PetClinic-Portfolio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/client/src/images/emailDenisa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/client/src/images/insta-logo3.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/client/src/components/AboutMe Page/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/client/src/components/AboutMe Page/AboutMe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/client/src/components/Contact Page/Contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/client/src/components/Contact Page/Contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/client/src/components/Contact Page/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/client/src/components/Contact Page/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/client/src/components/Main Page/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/client/src/components/Main Page/MainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/client/src/components/Main Page/NavigationBar/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/client/src/components/Main Page/NavigationBar/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/client/src/components/Main Page/NavigationBar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/client/src/components/Main Page/NavigationBar/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/i18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/images/background_brown_img_unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/translation/English/translation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/translation/French/translation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/translation/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/AboutMe Page/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/AboutMe Page/AboutMe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Contact Page/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Contact Page/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Main Page/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Main Page/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Main Page/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Main Page/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Main Page/NavigationBar/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Main Page/NavigationBar/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Main Page/NavigationBar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Main Page/NavigationBar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Projects Page/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Projects Page/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-js/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/express-js/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/express-js/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,11 +31,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/portfolio/client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2brYHFFfCiCKvlP2KMjz1pEw0ug" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,12 +45,22 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/denis/OneDrive/Desktop/Portfolio-Website/porftolioBackend",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/denis/OneDrive/Desktop/Portfolio-Website/client/src/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.3.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\denis\OneDrive\Desktop\Portfolio-Website\client\src\images" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,6 +70,10 @@
       <option name="presentableId" value="Default" />
       <updated>1706974574466</updated>
       <workItem from="1706974575560" duration="25000" />
+      <workItem from="1711000063520" duration="703000" />
+      <workItem from="1711659253658" duration="26000" />
+      <workItem from="1712687318035" duration="347000" />
+      <workItem from="1712977148286" duration="12782000" />
     </task>
     <servers />
   </component>

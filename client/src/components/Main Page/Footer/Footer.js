@@ -1,17 +1,21 @@
 
 import React from "react";
 import "./Footer.css";
+import {useTranslation} from "react-i18next";
 
 function Footer() {
+
+    const { t } = useTranslation();
+
     return (
         <div className="footer">
             <div className="footer-links">
-                <a href="/" className="footer-link">Home</a>
-                <a href="/aboutMe" className="footer-link">About Me</a>
-                <a href="/projects" className="footer-link">Projects</a>
-                <a href="/contact" className="footer-link">Contact Me</a>
+                <a href="/" className="footer-link">{t("navbar.home")}</a>
+                <a href="/aboutMe" className="footer-link">{t("navbar.about")}</a>
+                <a href="/projects" className="footer-link">{t("navbar.projects")}</a>
+                <a href="/contact" className="footer-link">{t("navbar.contact")}</a>
             </div>
-            <p className="footer-text">© 2024 Denisa Hategan. All rights reserved.</p>
+            <p className="footer-text">{t("footer.footerRights")}</p>
         </div>
     );
 }
