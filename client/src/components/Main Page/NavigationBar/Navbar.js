@@ -6,12 +6,15 @@ import './Navbar.css';
 import DenisaLogo from '../../../images/logo3-DenisaPortfolio.png';
 // import {t} from "i18next";
 import {useTranslation} from "react-i18next";
+import languageList from "./languageListNavbar.tsx";
+
 
 
 function Navbar() {
-    const [language, setLanguage] = useState("EN");
+    const [language, setLanguage] = useState("en");
     // const { t } = useTranslation();
     const { t, i18n } = useTranslation();
+
 
     const handleLanguageChange = (lng) => {
         setLanguage(lng);
@@ -59,10 +62,17 @@ function Navbar() {
                     </li>
                 </ul>
                 <div className={"localization-btn"}>
-                    {/* Button displays the current language code */}
-                    <button onClick={handleLanguageToggle}>
-                        {language === "en" ? "FR" : "EN"}
+                    <button className="language-select" onClick={() => handleLanguageToggle()}>
+                        {languageList.map(lang => (
+                            lang.code === language &&
+                            <React.Fragment key={lang.code}>
+                                <img src={lang.flag} alt={lang.name} style={{width: '20px', marginRight: '5px'}}/>
+                                {lang.name}
+                            </React.Fragment>
+                        ))}
                     </button>
+
+
                 </div>
             </nav>
         </div>

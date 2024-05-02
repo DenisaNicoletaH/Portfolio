@@ -59,13 +59,14 @@ nav a {
     font-size: 16px;
     transition: color 0.3s ease;
     font-family: 'Courier New', monospace;
-    border: 1px solid #282c34;
+    border: 1px solid white;
     padding: 10px 20px;
 }
 
 nav a:hover {
-    color: #d8bfb3;
+    color: #c0a080;
     font-family: 'Courier New', monospace;
+    background-color: white;
 }
 
 nav ul li:hover {
@@ -99,6 +100,17 @@ nav ul li:hover {
     color: #c0a080;
 }
 
+
+.language-select {
+    background-color: #ffffff;
+    color: #333333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Bodoni MT", "Didot", "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", monospace;
+    transition: background-color 0.3s ease;
+}
 
 @media screen and (max-width: 768px) {
     .navbar {

@@ -57,7 +57,7 @@ function Projects() {
                     title={t("projects.corsoTitle")}
                     description={t("projects.corsoDescription")}
                     imageUrl={Corso}
-                    link="https://corsoelectriqueinc.tech/"
+                    link="https://corsoelectriqueinc.ca/"
                     linkGithub="https://github.com/DylanBrass/Corso-Website"
                     isCorso={true}
                 />

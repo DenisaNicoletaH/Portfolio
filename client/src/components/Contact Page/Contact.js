@@ -77,19 +77,19 @@ function Contact() {
                 <div className="w3-container">
                     <div className="contact-links">
                         <ul>
-                            <a href="https://github.com/DenisaNicoletaH" target="_blank">
+                            <a href="https://github.com/DenisaNicoletaH" target="_blank" className={"github-ahref-className"}>
                                 <FontAwesomeIcon icon={faGithub} className="animated-icon github-contact-icon"/>
                                 <p>GitHub</p>
                             </a>
                         </ul>
                         <ul>
-                            <a href="https://www.instagram.com/_denisa__nicoleta_/" target="_blank">
+                            <a href="https://www.instagram.com/_denisa__nicoleta_/" target="_blank" className={"instagram-ahref-className"}>
                                 <FontAwesomeIcon icon={faInstagram} className="animated-icon insta-contact-icon"/>
                                 <p>Instagram</p>
                             </a>
                         </ul>
                         <ul>
-                            <a href="https://www.linkedin.com/in/denisa-hategan-1b8a68214/" target="_blank">
+                            <a href="https://www.linkedin.com/in/denisa-hategan-1b8a68214/" target="_blank" className={"linkedIn-ahref-className"}>
                                 <FontAwesomeIcon icon={faLinkedin} className="animated-icon linkedIn-contact-icon" />
                                 <p>LinkedIn</p>
                             </a>
