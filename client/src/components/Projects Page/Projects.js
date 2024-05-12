@@ -4,6 +4,8 @@ import Navbar from "../Main Page/NavigationBar/Navbar";
 // import Corso from "../../images/CorsoWebsite-Portfolio.png";
 import Corso from "../../images/CORSO-MAINPAGE.png";
 import PetClinic from "../../images/PetClinic-Portfolio.png";
+import DrGhafouriInternshipImage from "../../images/DrGhafouri_Internship_Image.png";
+import PariaShiraniInternshipImage from "../../images/Internship_Image_PariaShirani.png";
 import Footer from "../Main Page/Footer/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub} from "@fortawesome/free-brands-svg-icons";
@@ -69,6 +71,27 @@ function Projects() {
                     linkGithub="https://github.com/cgerard321/champlain_petclinic"
                     isCorso={false}
                 />
+
+
+                <ProjectCard
+                    title={t("projects.pariaShiraniTitle")}
+                    description={t("projects.pariaShiraniDescription")}
+                    imageUrl={PariaShiraniInternshipImage}
+                    link="https://github.com/cgerard321/champlain_petclinic"
+                    linkGithub="https://github.com/cgerard321/champlain_petclinic"
+                    isCorso={false}
+                />
+
+                <ProjectCard
+                    title={t("projects.drGhafouriTitle")}
+                    description={t("projects.drGhafouriDescription")}
+                    imageUrl={DrGhafouriInternshipImage}
+                    link="https://github.com/cgerard321/champlain_petclinic"
+                    linkGithub="https://github.com/cgerard321/champlain_petclinic"
+                    isCorso={false}
+                />
+
+
 
 
             </div>

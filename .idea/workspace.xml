@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a729da48-a11a-4eb5-94ff-c1ccccf70429" name="Changes" comment="Completed Translation">
-      <change afterPath="$PROJECT_DIR$/client/src/components/Main Page/NavigationBar/France-flag.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Main Page/NavigationBar/US-Flag.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Main Page/NavigationBar/languageListNavbar.tsx" afterDir="false" />
+    <list default="true" id="a729da48-a11a-4eb5-94ff-c1ccccf70429" name="Changes" comment="Updated Navbar styling">
+      <change afterPath="$PROJECT_DIR$/client/src/images/DrGhafouri_Internship_Image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/images/Internship_Image_PariaShirani.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/AboutMe Page/AboutMe.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/AboutMe Page/AboutMe.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Contact Page/Contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Contact Page/Contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Contact Page/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Contact Page/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Main Page/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Main Page/Footer/Footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Main Page/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Main Page/MainPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Main Page/NavigationBar/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Main Page/NavigationBar/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Main Page/NavigationBar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Main Page/NavigationBar/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Projects Page/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Projects Page/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/translation/English/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/translation/English/translation.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +68,13 @@
       <workItem from="1713043644570" duration="6000" />
       <workItem from="1713891348233" duration="893000" />
       <workItem from="1713913406261" duration="32000" />
-      <workItem from="1714668630153" duration="5675000" />
+      <workItem from="1714668630153" duration="6360000" />
+      <workItem from="1714687813792" duration="590000" />
+      <workItem from="1714744854988" duration="31000" />
+      <workItem from="1714921772255" duration="2717000" />
+      <workItem from="1714957259125" duration="91000" />
+      <workItem from="1715454024648" duration="1226000" />
+      <workItem from="1715546166750" duration="708000" />
     </task>
     <task id="LOCAL-00001" summary="Completed Translation">
       <option name="closed" value="true" />
@@ -84,7 +84,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712992966412</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated Navbar styling">
+      <option name="closed" value="true" />
+      <created>1714678233819</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714678233819</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Completed Translation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Translation" />
+    <MESSAGE value="Updated Navbar styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Navbar styling" />
   </component>
 </project>

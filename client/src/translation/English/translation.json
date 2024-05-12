@@ -30,8 +30,12 @@
     "projects": "Projects",
       "corsoTitle": "Corso Electric Inc.",
       "corsoDescription": "A website for an electrician company based in Montreal. The goal is to have a website where they can showcase their work and attract clients. This project was completed by 4 students from Champlain College St-Lambert. The project includes Orders, FAQs, Reviews, Gallery Images, Services and Reports. The website is done using ReactJS for Frontend, Java Springboot for Backend, and MySQL for the Database.",
-        "petClinicTitle": "Pet Clinic",
+        "pcd etClinicTitle": "Pet Clinic",
         "petClinicDescription": "This is a professional school project that allowed students at Champlain College St-Lambert to collaborate and to familiarize themselves with everyday work as a Scrum Master, Product Owner, as well as Developer. Each team had a microservice to improve then merge with the other teams.Me and my team were in charge of VETS and was done using AngularJS for Frontend, Java Springboot for Backend, as well as MongoDB for Database.",
+    "pariaShiraniTitle": "Academic Website of Dr.Shirani, Assistant Professor and Researcher at University of Ottawa ",
+    "pariaShiraniDescription": "A website for an assistant professor and researcher at the University of Ottawa. The goal is to have a website where the professor can showcase their work and attract students. This project was completed by 4 students from Champlain College St-Lambert. The project includes Main Page, Publications, Research,Team,Services and Contact. The website is done using Typescript with React components, HTML and CSS.",
+    "drGhafouriTitle": "Academic Website of Dr.Ghafouri, Assistant Professor and Researcher at Concordia University ",
+    "drGhafouriDescription": "A website for a professor at Concordia University. The goal is to have a website where the professor can showcase their work and attract students. This project was completed by 4 students from Champlain College St-Lambert. The project includes Main Page, Publications, Research,Team,Services and Contact. The website is done using Typescript with React components, HTML and CSS.",
     "viewProjectBtn": "View Project"
 
     },
